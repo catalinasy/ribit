@@ -6,8 +6,9 @@ import SearchIcon from '../../../public/search.svg';
 const SearchBar = () => {
   return (
     <div className="searchBarContainer">
-      <input className="searchBox"/>
-      <SearchIcon width='20px'/>
+
+      <input placeholder="Buscar suscripciones" className="searchBox"/>
+
     </div>
   );
 };

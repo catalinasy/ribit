@@ -7,12 +7,11 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Ribit</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <main className="main">
         <h6 className="title">
-          {/* Welcome to <a href="https://nextjs.org">Next.js!</a> */}
           Bienvenidx usuario!
         </h6>
         <SearchBar/>

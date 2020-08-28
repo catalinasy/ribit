@@ -1,19 +1,25 @@
 @import '../../../styles/colorCodes.scss';
 
 .searchBarContainer {
-    border: solid gray 1px;
-    border-radius: 10px;
-    padding: 0.5rem;
+    // border: solid gray 1px;
+    max-width: 30rem;
     margin: 1rem;
     display: flex;
-    justify-content: space-between;
     // background: $blue;
 }
 
 .searchBox{
+    background: none;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 100%;
     border: none;
     font-size: 1rem;
+    background: $lightBlue;
+
     &:focus{
-        outline: none;
+        border-color: #e6eef5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(215, 230, 243, 0.6);
+    outline: 0 none;
     }
 }
