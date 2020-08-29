@@ -1,6 +1,11 @@
-import Head from 'next/head'
-import '../styles/Home.scss'
-import SearchBar from '../src/Components/Searchbar'
+import Head from "next/head";
+import "../styles/Home.scss";
+
+// components
+import SearchBar from "../src/Components/Searchbar";
+import Sugestions from "../src/Components/Sugestions";
+import Suscriptions from "../src/Components/Suscriptions";
+import Header from "../src/Components/Header";
 
 export default function Home() {
   return (
@@ -11,17 +16,16 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <h6 className="title">
-          Bienvenidx usuario!
-        </h6>
-        <SearchBar/>
-    {/* sugestions */}
-    {/* current suscriptions */}
+        <Header />
+
+        <SearchBar />
+        <Sugestions />
+        <Suscriptions />
       </main>
 
-      <footer className="footer">
+      {/* <footer className="footer">
        {/* create a footer for ribit */}
-      </footer>
+      {/* </footer> */}
     </div>
-  )
+  );
 }

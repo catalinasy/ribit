@@ -1,0 +1,15 @@
+@import '../../../styles/colorCodes.scss';
+
+.headerRoot{
+    padding: 0.7rem 1.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    min-height: 3rem;
+    background: $lightCobalt;
+}

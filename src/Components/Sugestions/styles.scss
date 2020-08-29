@@ -1,0 +1,35 @@
+@import "../../../styles/colorCodes.scss";
+
+.sugestionsRoot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sugestionCard {
+  padding: 0.5rem;
+  min-width: 45%;
+  border-radius: 10px;
+  margin: 0.2rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(236, 234, 234);
+  min-height: 4rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+
+  
+}
+
+.category{
+    width: 2.5px;
+    border-radius: 2px;
+    height: 70%;
+    background: $cobalt;
+    justify-self: flex-start;
+}
+
+.sugestionContent{
+    margin-left: 1rem;
+}

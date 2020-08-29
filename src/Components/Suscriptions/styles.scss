@@ -1,0 +1,31 @@
+@import "../../../styles/colorCodes.scss";
+
+.rootContainer{
+    height: 20px;
+    // background: $blue;
+    margin-top: 1rem;
+}
+
+.suscriptionCard {
+    padding: 1rem;
+    min-width: 45%;
+    border-radius: 10px;
+    margin: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(236, 234, 234);
+    min-height: 4rem;
+
+}
+
+.suscriptionTitle{
+    margin: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0.2rem;
+}
+
+.suscriptionDescription{
+    margin: 0;
+    font-size: 0.8rem;
+}
